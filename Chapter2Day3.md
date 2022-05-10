@@ -3,16 +3,17 @@
 ## 1. In a script, initialize an array (that has length == 3) of your favourite people, represented as Strings, and log it.
 
 ![Screen Shot 2022-04-29 at 2 29 14 PM](https://user-images.githubusercontent.com/104539205/166057007-1fbec55c-ead4-43a7-a8a1-c70d2be7be0a.png)
-![Screen Shot 2022-04-29 at 2 29 30 PM](https://user-images.githubusercontent.com/104539205/166057077-e6cab00a-99b2-4498-aeac-9cac6986f6b4.png)
+<img width="260" alt="Screen Shot 2022-05-10 at 4 38 39 PM" src="https://user-images.githubusercontent.com/104539205/167726216-2d86a65a-58d0-4f1c-a2e2-50987d1068c3.png">
 ![Screen Shot 2022-04-29 at 2 29 38 PM](https://user-images.githubusercontent.com/104539205/166057129-8452dadb-c48a-4c38-a182-aa6a5d596b0d.png)
 
 ## 2. In a script, initialize a dictionary that maps the Strings Facebook, Instagram, Twitter, YouTube, Reddit, and LinkedIn to a UInt64 that represents the order in which you use them from most to least. For example, YouTube --> 1, Reddit --> 2, etc. If you've never used one before, map it to 0!
 
-![Screen Shot 2022-04-29 at 4 30 02 PM](https://user-images.githubusercontent.com/104539205/166071701-5ff3551f-1e01-40d0-9fbb-872a8c4bb928.png)
-![Screen Shot 2022-04-29 at 4 30 27 PM](https://user-images.githubusercontent.com/104539205/166071731-4a1262ab-fbf6-4cea-97dd-331a80939103.png)
+<img width="761" alt="Screen Shot 2022-05-10 at 4 42 34 PM" src="https://user-images.githubusercontent.com/104539205/167726701-289d06e3-2e4e-4570-a7c8-5675bd399ad8.png">
+<img width="325" alt="Screen Shot 2022-05-10 at 4 42 44 PM" src="https://user-images.githubusercontent.com/104539205/167726727-63f9947f-873a-4a6a-a71b-b64aa7b84124.png">
+
+
 ![Screen Shot 2022-04-29 at 4 30 37 PM](https://user-images.githubusercontent.com/104539205/166071749-5bb76672-1d41-481b-90f8-86846d1e4891.png)
 
-I wanted to be extra and create a function to print it just to practice a bit I know its not the most efficient but oh well for now if it works it works
 
 ## 3. Explain what the force unwrap operator ! does, with an example different from the one I showed you (you can just change the type).
 
@@ -23,23 +24,25 @@ In order to understand what the **force unwrap operator (!)** does, we must firs
 ```cadence
 
 let favNum: Int? = nil
+//this will work
 //here I declared an optional String type on a variable called favNum with an initial value of "nil"
 
 let favNum: Int? = 3
+//this will work
 //here I declared an optional String type on a variable called favNum with an initial value of 3 
 
 let favNum: Int? = "Dwight" 
+//this will not work
 //here I declared an optional String type on a variable called favNum with an initial value of "Dwight"
 ```
 
-The **"?"** indicates that the value of the variable must be the type we want (in this case "String") or "nil" (which means there is no value). Otherwise, the program will abort.
+The **"?"** indicates that the value of the variable must be the type we want (in this case "Int") or "nil" (which means there is no value). Otherwise, the program will abort.
 
 Since the first example has an intial value of "nil" there will not be any compiling errors.
 
 Since the second example has an intial value of 3 and 3 is a "Int" type there will not be any compiling errors.
 
-Since the third example has an intial value of "Dwight" which is an "String", not a "Int" the program will abort. The reason being is because there is an optional Int type declared on these 
-variables which means the value of the variables has to be the "Int" or "nil." Since the third example has a variable type "String", that is why the program will abort. 
+Since the third example has an intial value of "Dwight" which is an "String", not a "Int" the program will abort. The reason being is because there is an optional Int type declared on these variables which means the value of the variables has to be the "Int" or "nil." Since the third example has a variable type "String", that is why the program will abort. 
 
 So optional types basically is the program saying the type better be exactly what we want or nothing at all, or else I'm not running this program.
 
