@@ -2,7 +2,7 @@
 
 ## 1. In words, list 3 reasons why structs are different from resources.
 
-### *Resources cannot be copied, overwritten, and they are more secure than structs. *
+### *Resources cannot be copied (structs can) or overwritten (structs can), and moreover resources are more secure than structs. *
 
 ## 2. Describe a situation where a resource might be better to use than a struct.
 
@@ -14,7 +14,7 @@
 
 ## 4. Can a resource be created in a script or transaction (assuming there isn't a public function to create one)?
 
-### *No a rsource cannot be created a script or transacition. A resource can only be created in the contract.*
+### *No a resource cannot be created a script or transacition. A resource can only be created in the contract.*
 
 ## 5. What is the type of the resource below?
 
