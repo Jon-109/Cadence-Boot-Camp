@@ -43,4 +43,4 @@ pub fun main(): String {
 
 ## 3. Explain, in your own words, why references can be useful in Cadence.
 
-### Resources are diffucult to move around given their strict security in Cadence, so to be able to indirectly see or alter the data in the resource without having to move it is beneficial to developers. 
+### Resources are diffucult to move around given their strict security in Cadence, so to be able to indirectly see or alter the data in the resource without having to move it anywhere is beneficial to developers. 
