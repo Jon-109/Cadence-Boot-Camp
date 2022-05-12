@@ -5,7 +5,7 @@
 
 ## 2. What does the AuthAccount mean in the prepare phase of the transaction?
 
-*AuthAccount acts as a confirmation for the user in prepare phase of the transaction. The confirmation ensures the user approves of the transaction and wants to continue.*
+*AuthAccount allows for access/modifications to the storage of an account when the transaction is signed in prepare phase of the transaction. The confirmation ensures the user approves of the transaction and wants to continue.*
 
 ## 3. What is the difference between the prepare phase and the execute phase in the transaction?
 
