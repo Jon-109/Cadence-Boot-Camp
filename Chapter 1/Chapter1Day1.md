@@ -14,4 +14,4 @@
 
 ## 3. Explain the difference between a script and a transaction.
 
-### *A script is a function call used to a view data on the blockchain whereas a transaction is a function call that alters data on the blockchain.*
+### *A script is a function call used to a view data on the blockchain whereas a transaction is a function call that alters data on the blockchain. Moreover, transactions have fees/costs and scripts do not.*
