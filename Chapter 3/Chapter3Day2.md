@@ -16,16 +16,24 @@ pub contract Emerald {
         }
     }
 
-    pub fun addInsult(insult: @Insult) {
+    pub fun addInsultToDictionary(insult: @Insult) {
         let key = insult.getRoasted
         
         let oldInsult <- self.dictionaryOfInsults[key] <- insult
         destroy oldInsult
     }
 
-    pub fun removeInsult(key: String): @Insult {
+    pub fun removeInsultFromDictionary(key: String): @Insult {
         let insult <- self.dictionaryOfInsults.remove(key: key) ?? panic("There ain't no damn insults..")
         return <- insult
+    }
+
+    pub fun addGreetingToArray(insult: @Insult) {
+        self.arrayOfInsults.append(<- insult)
+    }
+
+    pub fun removeGreetingFromArray(index: Int): @Insult {
+        return <- self.arrayOfInsults.remove(at: index)
     }
 
     init() {
