@@ -122,7 +122,7 @@ import SomeContract from 0x01
 pub fun main() {
              //Variable A
              //Read Scope - All
-             //Write Scope - All
+             //Write Scope - Not writable (since it is within a script)
              
              //Variable B
              //Read Scope - All
