@@ -39,9 +39,7 @@ pub contract Emerald {
     init() {
         self.arrayOfInsults <- []
         self.dictionaryOfInsults <- {}
-
     }
-
 }
 
 ```
