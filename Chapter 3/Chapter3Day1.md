@@ -6,7 +6,7 @@
 
 ## 2. Describe a situation where a resource might be better to use than a struct.
 
-### *If you use resources for NFT's, that ensures for the owners of the NFT's that the NFT's are more secure and cannot be interfered with as easily as structs can.*
+### *Resources are a great feature of the programming language Cadence. A situation in which a resource might be better than a struct are for NFT's. If you use resources for NFT's not only are the transactions fees minimal compared to the languages of the other blockchains, but also it ensures for the owners of the NFT's that the NFT's are more secure and cannot be interfered with as easily as structs can.*
 
 ## 3. What is the keyword to make a new resource?
 
