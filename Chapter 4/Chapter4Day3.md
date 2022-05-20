@@ -14,4 +14,9 @@ Idea #1: Do we really want everyone to be able to mint an NFT? 🤔.
 
 Idea #2: If we want to read information about our NFTs inside our Collection, right now we have to take it out of the Collection to do so. Is this good?
 
-###
+### Fix 1: Assign an account to be owner of a resource that gives permission to be the minter of the NFT's. Place the function to mint NFT's in that minter resource just assigned to the account.  
+
+### Fix 2: Link the resources in the collection to the public path of the account storage so that they can have the capability to view the reference of the resource without having to move the resource itself.
+
+### Fix 3: Make the collection resource implement a resource interface to restrict access to the withdraw function to eliminate the public from being able to withdraw from the collection. The resource interface will expose only what we want so we can restrict access to other things in the collection as well.
+
