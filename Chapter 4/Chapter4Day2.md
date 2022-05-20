@@ -1,4 +1,4 @@
-# Chapter 4 Day 1 Quest Answers
+# Chapter 4 Day 2 Quest Answers
 
 ## What does .link() do?
 
